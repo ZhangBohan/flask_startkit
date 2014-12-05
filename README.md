@@ -10,6 +10,7 @@
     virtualenv env --no-site-packages
     # 启动虚拟环境
     source env/bin/activate
+    pip install -r requirements.text
     # 以开发模式启动该项目
     python dev_server.py
     
